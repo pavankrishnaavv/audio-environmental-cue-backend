@@ -7,7 +7,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-AQ.Ab8RN6Iee7AqpBvldGy8zF5LksTjkMTm4LQdodQ-3Ce_pIFUwg}
       - GEMINI_MODEL=gemini-3.5-flash
       - PORT=8000
       - HOST=0.0.0.0
