@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  audio-engine:
+    build: .
+    container_name: audio-environmental-cue-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GEMINI_MODEL=gemini-3.5-flash
+      - PORT=8000
+      - HOST=0.0.0.0
+    restart: unless-stopped

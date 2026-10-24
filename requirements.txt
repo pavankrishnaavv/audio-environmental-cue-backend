@@ -1,0 +1,10 @@
+fastapi>=0.115.0
+uvicorn>=0.30.0
+google-genai>=1.0.0
+scipy>=1.14.0
+numpy>=2.0.0
+mutagen>=1.47.0
+python-multipart>=0.0.9
+python-dotenv>=1.0.1
+requests>=2.32.0
+pytest>=8.0.0
